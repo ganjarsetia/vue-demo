@@ -1,0 +1,37 @@
+{
+  "name": "vue-demo",
+  "version": "1.0.0",
+  "description": "Practicing using Vue JS",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server",
+    "build": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ganjarsetia/vue-demo.git"
+  },
+  "keywords": [
+    "vue",
+    "vuejs"
+  ],
+  "author": "Ganjar Setia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ganjarsetia/vue-demo/issues"
+  },
+  "homepage": "https://github.com/ganjarsetia/vue-demo#readme",
+  "devDependencies": {
+    "babel-core": "6.18.2",
+    "babel-loader": "6.2.7",
+    "babel-preset-es2015": "6.18.0",
+    "css-loader": "0.25.0",
+    "live-server": "1.1.0",
+    "vue-template-compiler": "^2.1.10",
+    "webpack": "1.13.3"
+  },
+  "dependencies": {
+    "vue": "^2.1.10",
+    "vue-loader": "^10.0.2"
+  }
+}
